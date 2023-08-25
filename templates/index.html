@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>Financial News Headlines Sentiment Analysis</h1>
+        <form action = "{{ url_for('predict') }}" method = 'post'>
+            <label>Enter News Headlines</label>
+            <input type = "text" name = "news_headlines"/>
+            <input type = "submit" name = "Predict" value = "Predict"/>
+            <br>
+        </form>
+        
+        <h2 style = "color: black;">{{ prediction_text }}</h2>
+    </body>
+</html>
