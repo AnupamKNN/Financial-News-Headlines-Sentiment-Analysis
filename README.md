@@ -105,7 +105,7 @@ Now, the 'SentimentIntensityAnalyzer' algorithm was imported using nltk.sentimen
 4. The polarity score of the descriptions was deduced & stored in the column 'ds_score' using polarity_score
 5. The function 'get_analysis' was applied on the 'ds_score' column using 'apply' function to analyze the sentiment of the description data and a count plot was plotted on the description score to check the count of the sentiments of the 3 sentiment categories.
 
-
+![Count Plot 1](https://github.com/AnupamKNN/Financial-News-Headlines-Sentiment-Analysis/blob/main/sample_plot_1.png)
 
 ### Modeling on Description
 
@@ -131,7 +131,7 @@ Now, the 'SentimentIntensityAnalyzer' algorithm was imported using nltk.sentimen
 3. The text data in the 'info' column was again preprocessed using 'preprocession_text' column & polarity scores were deduced & stored in 'info_score' column. The function 'get_analysis' was applied on the 'info_score' column to get the sentiment analysis.
 4. A count plot was distributed to analyze the count of each sentiment of the 3 sentiment categories.
 
-
+![Count Plot 2](https://github.com/AnupamKNN/Financial-News-Headlines-Sentiment-Analysis/blob/main/sample_plot_3.png)
 
 ### Modeling on headlines + description
 
@@ -159,7 +159,7 @@ Now, the 'SentimentIntensityAnalyzer' algorithm was imported using nltk.sentimen
 5. Thereafter, 'get_analysis' function was applied on the 'hl_score' column to get the sentiment analysis.
 6. A count plot was distributed to analyze the count of each sentiment of the 3 sentiment categories.
 
-
+![Count Plot 3](https://github.com/AnupamKNN/Financial-News-Headlines-Sentiment-Analysis/blob/main/sample_plot_5.png)
 
 ### Modeling on headlines
 
