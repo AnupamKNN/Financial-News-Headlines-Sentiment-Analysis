@@ -4,8 +4,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 # Load the sentiment analysis model from the pickle file
-with open('Headlines Model.pkl', 'rb') as file:
-    model = pickle.load(file)
+model = pickle.load('Headlines Model.pkl', 'rb'))
 
 @app.route('/')
 def home():
