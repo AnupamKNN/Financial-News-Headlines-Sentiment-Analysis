@@ -5,7 +5,7 @@ from scipy.sparse import _csr
 app = Flask(__name__)
 
 # Load the sentiment analysis model from the pickle file
-model = pickle.load('Headlines Model.pkl', 'rb'))
+model = pickle.load('Headlines Model.pkl', 'rb')
 
 @app.route('/')
 def home():
