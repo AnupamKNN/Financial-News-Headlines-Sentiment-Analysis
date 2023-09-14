@@ -39,7 +39,7 @@ News headlines play a crucial role as they assist people in analyzing whether th
 
 The data set includes news headlines from three news forums, namely Reuters, CNBC & The Guardian. The dataset used was downloaded from Kaggle.
 
-##### Columns Provided in the Dataset:-
+##### Columns Provided in the Dataset
 
 CNBC headline:
 1. Time
