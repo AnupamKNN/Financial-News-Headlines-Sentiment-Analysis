@@ -180,5 +180,5 @@ Now, the 'SentimentIntensityAnalyzer' algorithm was imported using nltk.sentimen
 
 # Prediction
 
-1. Now that the model has been developed, the results can be checked om realtime news.
+1. Now that the model has been developed, the results can be checked on realtime news.
 2. With the help of 'pickle', a pickle file was developed which was then utilized for the development of a web application.
